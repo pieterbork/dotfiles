@@ -1,4 +1,4 @@
-execute pathogen#infect
+execute pathogen#infect()
 let g:airline_theme='gruvbox'
 
 syntax on
