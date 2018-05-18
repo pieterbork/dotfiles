@@ -1,8 +1,21 @@
-color desert
-set number
-set autoindent
-set tabstop=4
+execute pathogen#infect
+let g:airline_theme='gruvbox'
+
+syntax on
+filetype indent on
+
+set tabstop=8
+set softtabstop=4
 set shiftwidth=4
 set expandtab
-filetype indent on
-syntax on
+set autoindent
+
+set backspace=indent,eol,start
+
+set cursorline
+set number
+set ruler
+set showcmd
+set ignorecase
+set smartcase
+set hlsearch

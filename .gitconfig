@@ -1,0 +1,20 @@
+[user]
+	email = pieter.bork@colorado.edu
+    name = pieterbork
+[core]
+    editor = vim
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[merge]
+    tool = vimdiff
+[alias]
+    a = add --all
+    b = branch
+    c = commit
+    cm = commit -m
+    st = status
+    pl = pull
+    ps = push
+    psom = push origin master
