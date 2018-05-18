@@ -1,5 +1,7 @@
 execute pathogen#infect()
 let g:airline_theme='gruvbox'
+let g:gruvbox_contrast_dark='neutral'
+colorscheme gruvbox
 
 syntax on
 filetype indent on
